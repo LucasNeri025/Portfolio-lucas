@@ -1,0 +1,23 @@
+.page-enter-active, .page-leave-active{
+    transition: all .1s;
+}
+.page-enter, .page-leave-active{
+    opacity: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  *::-webkit-scrollbar-track {
+    background: rgba(255, 166, 0, 0);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 20px;
+    border: 3px solid rgb(72, 72, 72);
+  }
+  *::-webkit-scrollbar-corner{
+      background-color: rgba(0, 0, 255, 0);
+  }
